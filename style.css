@@ -1,0 +1,256 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head{
+    background-color:mediumturquoise;
+    height: 40px;
+}
+.title h5{
+    color: white;
+    margin-top: 10px;
+    padding-left: 300px;
+    font-size: 14px;
+}
+.title a img{
+    margin-top: 10px;
+    padding-left: 500px;
+}
+.title p{
+    color: white;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+.esas{
+    background-color: white;
+    height: 50px;
+}
+.strt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pics .bp{
+    margin-bottom: 20px;
+    padding-left: 60px;
+}
+.src{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid ;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+
+}
+.src p{
+    padding-left: 20px;
+    margin-top: 5px;
+}
+.langs .lang1{
+    padding-left: 10px;
+}
+.langs{
+    height: 30px;
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav1 h5{
+    color: black;
+}
+.nav1 h5:hover
+{
+    color: skyblue;
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+}
+.main{
+    display: flex;
+    justify-content:space-between;
+}
+.main .tx{
+    color:lightseagreen;
+    padding-left: 50px;
+    font-size: 18px;
+}
+.langs a :hover{
+    color: blue;
+}
+.icn a :hover{
+    background-color: blue;
+    border-radius: 50%;
+}
+.bt{
+    width: 100px;
+    height: 20px;
+    border: 1px solid;
+    margin-right: 70px;
+    border-radius: 5px;
+
+}
+.bt .next a{
+    padding-top: 5px;
+    text-align: center;
+    color: black;
+}
+.main1{
+    display: flex;
+    justify-content: space-around;
+}
+.sekil .buton{
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+    width: 120px;
+    border: 2px solid mediumturquoise;
+    border-radius: 5px;
+}
+.buton p{
+    color: mediumturquoise;
+    font-weight: bold;
+}
+.main1{
+
+    margin-left: 40px;
+}
+.pc5{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.main2{
+    display: flex;
+    justify-content: space-around;
+}
+.sekil1 img{
+    width: 575px;
+    height: 400px;
+}
+.main2 .sekil2 img{
+    border-radius: 30px;
+}
+.btnn{
+    height: 20px;
+    width: 200px;
+    border: 1px solid mediumturquoise;
+    margin-left: 580px;
+    
+}
+.btnn p{
+    text-align: center;
+    color: mediumturquoise;
+}
+.last p{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.last hr{
+    width: 200px;
+    margin-left: 50px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+}
+.sb{
+    height: 20px;
+    width: 200px;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 80px;
+}
+.sec1 p,h6{
+    text-align: center;
+}
+.yellow img{
+    margin-left: 30px;
+    width: 95%;
+    height:300px ;
+}
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+}
+.sec2son{
+    display: flex;
+    justify-content: space-around;
+}
+.sec2son pre{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.sec2son img{
+    height: 80px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cards .card{
+    height: 123px;
+    width: 175px;
+    border: 1px solid ;
+    border-radius: 10px;
+}
+
+.cards{
+    display: flex;
+    margin-left: 366px;
+    gap:30px ;
+}
+.card img{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.tr span{
+    color: darkturquoise;
+}
+
+    
+.cards :hover{
+
+
+    background-color: bisque ;
+}
+.sb :hover{
+    background-color: deepskyblue;
+    color: white;
+}
+.btnn :hover{
+    background-color: darkred;
+    color: white;
+    border-radius: 10px;
+}
+.buton :hover{
+    background-color: floralwhite;
+    color: black;
+}
+.next :hover{
+    background-color: aquamarine;
+}
